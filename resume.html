@@ -18,7 +18,6 @@ h1 {
 }
     .heading {
     list-style-type: none;
-    margin: 0;
     padding: 30px;
     margin-bottom: 40px;
     background-color: black;
@@ -26,6 +25,7 @@ h1 {
 }
 .head {
     display: inline;
+    font-size: 20px;
     margin-right: 20px;
     margin-left: 100px;
 
@@ -37,6 +37,7 @@ ul a {
 
     img {
       width: 90%;
+
 
 
     }
@@ -55,14 +56,20 @@ ul a {
       text-align: center;
       font-size: 50px;
       font-weight: bold;
+      color: white;
       text-transform: inherit;
     }
 
     .bio {
       font-size: 30px;
+      color: white;
       text-align: center;
       text-transform: inherit;
       line-height: 50px;
+      background-color: black;
+      border-top: solid black 50px;
+      border-bottom: solid black 50px;
+
 
 
     }
@@ -82,6 +89,11 @@ ul a {
     .skills{
       margin-top: 30px;
       margin-bottom: 20px;
+    }
+
+    .skillz {
+      font-size: 20px;
+      line-height: 40px;
     }
 
 
@@ -105,10 +117,10 @@ ul a {
   <li class="head"><a href="file:///C:/Users/jenantaha/Desktop/SKOOL/final-project/portfolio.html">Photos</a></li>
     </ul>
     <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" >
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 bio" >
       <img src="C:\Users\jenantaha\Desktop\SKOOL\IMG_4887-3.jpg">
       </div>
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" >
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 bio" >
     <h1 id="bio"> Hi, I'm Jenan </h1>
     <h4 class="bio">
 I'm a junior journalism major with a dual degree in Arabic. I aspire to not simply record current events but to tell important and complex stories that inform my peers and make sense of the world around us. </h4>
@@ -136,6 +148,21 @@ I'm a junior journalism major with a dual degree in Arabic. I aspire to not simp
     Restaurants remain open despite failed health inspections </a>
  </h4>
   <p> At least 20 restaurants in zip codes surrounding UT Austin are continuing their operations with few repercussions despite failing... </p>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <h1 class="docum"> Documentaries & Photostories </h1>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <h4 class="docum"> <a href="https://www.youtube.com/watch?v=8OF502uUdBk" target="_blank"> The American Honey Bee Protection Agency </a></h4>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bee">
+  <img src="2017-03-02-Bee.jpg">
+</div>
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <h4 class="docum"> <a href="https://drive.google.com/file/d/0B-rmt2mWtL98Zmk2LU1CODdBTTQ/view" target="_blank"> The Imam </a></h4>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 imam">
+  <img src="Library.JPG">
 </div>
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
   <h1 class="report"> Reporting Experience </h1>
@@ -170,7 +197,7 @@ I'm a junior journalism major with a dual degree in Arabic. I aspire to not simp
 </div>
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
   <h1 class="skills"> Skills </h1>
-  <ul>
+  <ul class="skillz">
     <li> Editing Software: Adobe Premier, Adobe Photoshop Lightroom </li>
     <li>Mapping Software: QGIS</li>
     <li>Excel Spreadsheets</li>
